@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration_page.css" />
+  </head>
+  <body>
+          <h1>Registration Page</h1>
+        <br>
+        <form action="/success.html" target="_self">
+      <div>
+        <div>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" required /><br />
+        </div>
+
+        <div>
+          <label for="fname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" required /><br />
+        </div>
+
+        <div>
+          <label for="lname">Phone number:</label><br />
+          <input type="tel" id="phone" name="phone" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+        </div>
+
+        <div>
+          <label for="gender"> Gender: </label><br />
+          <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="DOB"> Date of Birth</label><br />
+          <input type="date" name="DOB" id="DOB" required />
+        </div>
+
+        <div>
+          <label for="favecolor">Favorite Color</label><br />
+          <input type="color" name="favecolor" id="favecolor" />
+        </div>
+      </div>
+
+      <br />
+
+      <div>
+        <button type="submit">REGISTER</button>
+      </div>
+    </form>
+  </body>
+</html>

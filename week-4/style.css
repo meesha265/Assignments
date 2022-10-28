@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 800px;
+  width: 900px;
+  min-height: 100vh;
+  background-color: hsl(0%, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+.cars {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  margin: auto;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+img {
+  size: 2px;
+}
+
+.car h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+.car p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.first {
+  padding: 40px;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.second {
+  padding: 40px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third {
+  padding: 40px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 60px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.cars button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  outline-color: hsl(0, 0%, 95%);
+  border: 1px solid white;
+}
+@media screen and (max-width: 550px) {
+  body {
+    padding: 70px 30px;
+    min-height: 300vh;
+    height: 300px;
+  width: 400px;
+  }
+  .cars {
+    flex-direction: column;
+  }
+}
