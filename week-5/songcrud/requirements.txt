@@ -1,4 +1,0 @@
-flask
-flask_restx
-gunicorn
-flask-corsgit add .
